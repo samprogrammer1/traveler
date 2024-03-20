@@ -7,6 +7,7 @@
 
       <!-- favicon -->
       <link rel="icon" type="image/png" href="assets/images/favicon.png">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" media="all">
       <!-- jquery-ui css -->
@@ -107,6 +108,10 @@
                                     </li>
                                  </ul>
                               </li>
+                              <li class="menu-item-has-children">
+                                 <a href="Login.html">Login</a>
+                               
+                              </li>
                              
                            </ul>
                         </nav>
@@ -202,7 +207,7 @@
                   </div>
                   <div class="destination-section">
                      <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6" data-aos="fade-left">
                            <article class="destination-item" style="background-image: url(assets/images/image2.avif);">
                               <div class="destination-content">
                                  <div class="rating-start-wrap">
@@ -220,7 +225,7 @@
                               </div>
                            </article>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up">
                            <article class="destination-item" style="background-image: url(assets/images/image3.avif);">
                               <div class="destination-content">
                                  <div class="rating-start-wrap">
@@ -238,7 +243,7 @@
                               </div>
                            </article>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6" data-aos="fade-right">
                            <article class="destination-item" style="background-image: url(assets/images/image4.avif);">
                               <div class="destination-content">
                                  <div class="rating-start-wrap">
@@ -270,14 +275,14 @@
                   <div class="row">
                      <div class="col-lg-8 offset-lg-2 text-sm-center">
                         <div class="section-heading">
-                           <h5 class="sub-title">POPULAR PACKAGES</h5>
-                           <h2 class="section-title">CHECKOUT OUR PACKAGES</h2>
+                           <h5 class="sub-title">POPULAR PALACE</h5>
+                           <h2 class="section-title"></h2>
                            <p>Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.</p>
                         </div>
                      </div>
                   </div>
                   <div class="package-section">
-                     <article class="package-item">
+                     <article class="package-item" data-aos="fade-up">
                         <figure class="package-image" style="background-image: url(assets/images/image8.jpg);"></figure>
                         <div class="package-content">
                            <h3>
@@ -319,7 +324,7 @@
                            <a href="booking.html" class="outline-btn outline-btn-white">Book now</a>
                         </div>
                      </article>
-                     <article class="package-item">
+                     <article class="package-item" data-aos="fade-up"> 
                         <figure class="package-image" style="background-image: url(assets/images/image9.jpg);"></figure>
                         <div class="package-content">
                            <h3>
@@ -361,7 +366,7 @@
                            <a href="booking.html" class="outline-btn outline-btn-white">Book now</a>
                         </div>
                      </article>
-                     <article class="package-item">
+                     <article class="package-item" data-aos="fade-up">
                         <figure class="package-image" style="background-image: url(assets/images/image10.jpg);"></figure>
                         <div class="package-content">
                            <h3>
@@ -403,7 +408,7 @@
                            <a href="booking.html" class="outline-btn outline-btn-white">Book now</a>
                         </div>
                      </article>
-                     <article class="package-item">
+                     <article class="package-item" data-aos="fade-up">
                         <figure class="package-image" style="background-image: url(assets/images/image11.jpg);"></figure>
                         <div class="package-content">
                            <h3>
@@ -445,7 +450,7 @@
                            <a href="booking.html" class="outline-btn outline-btn-white">Book now</a>
                         </div>
                      </article>
-                     <article class="package-item">
+                     <article class="package-item" data-aos="fade-up">
                         <figure class="package-image" style="background-image: url(assets/images/image12.jpg);"></figure>
                         <div class="package-content">
                            <h3>
@@ -502,7 +507,7 @@
                      <div class="col-lg-8 offset-lg-2 text-center">
                         <div class="callback-content">
                            <div class="video-button">
-                              <a  id="video-container" data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=2OYar8OHEOU">
+                              <a  id="video-container" data-fancybox="video-gallery" href="">
                                  <i class="fas fa-play"></i>
                               </a>
                            </div>
@@ -570,8 +575,8 @@
                      </div>
                   </div>
                   <div class="gallery-section">
-                     <div class="gallery-container grid">
-                        <div class="single-gallery grid-item">
+                     <div class="gallery-container grid" data-aos="fade-up">
+                        <div class="single-gallery grid-item" >
                            <figure class="gallery-img">
                               <a href="assets/images/image12.jpg" data-fancybox="gallery">
                                  <img src="assets/images/image12.jpg" alt="">
@@ -648,7 +653,7 @@
                            <article class="post">
                               <figure class="featured-post" style="background-image: url(assets/images/image2.avif);"></figure>
                               <div class="post-content">
-                                 <div class="cat-meta">
+                                 <div class="cat-meta" >
                                     <a href="blog-archive.html">Jaipur</a>
                                  </div>
                                  <h3><a href="blog-single.html">Hawa mahal</a></h3>
@@ -997,5 +1002,9 @@
       <script src="assets/vendors/fancybox/dist/jquery.fancybox.min.js"></script>
       <script src="assets/vendors/slick-nav/jquery.slicknav.js"></script>
       <script src="assets/js/custom.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+       </script>
    </body>
 </html>
